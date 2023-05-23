@@ -29,3 +29,31 @@ h2 {
     padding: 32px;
 }
 
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    font-size: 40px;
+    padding: 30px 0;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 18px;
+    text-decoration: none;
+    background-color: #fff;
+    color: black;
+    border-radius: 4px;
+}
+
+.button:hover {
+    cursor: pointer;
+    box-shadow: 0 11px 11px 0 #1e2418;
+    transition: transform 180ms;
+    transform: scale(1.1);
+}
