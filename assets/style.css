@@ -16,6 +16,7 @@ h1 {
 h2 {
     font-size: 55px;
     margin-bottom: 45px;
+    text-align: center;
 }
 
 .container {
@@ -56,4 +57,33 @@ h2 {
     box-shadow: 0 11px 11px 0 #1e2418;
     transition: transform 180ms;
     transform: scale(1.1);
+}
+
+ol, li {
+    font-size: 42px;
+    align-items: center;
+}
+
+.q1-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    max-width: 380px;
+    max-height: 380px;
+    border-style: solid;
+    border-radius: 5%;
+    border-color: #fff;
+}
+
+p {
+    margin-left: 270px;
+    display: inline-block;
+    padding: 15px ;
+}
+
+.choices-container {
+    border-width: 1px;
+    border-style: solid;
 }
