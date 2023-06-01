@@ -84,6 +84,22 @@ p {
 }
 
 .choices-container {
-    border-width: 1px;
+    border-width: 2px;
     border-style: solid;
+    border-radius: 8px;
+}
+
+.choices-container:hover {
+    cursor: pointer;
+    box-shadow: 0 11px 11px 0 #1e2418;
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+
+.correct {
+    background-color: green;
+}
+
+.incorrect {
+    background-color: red;
 }
